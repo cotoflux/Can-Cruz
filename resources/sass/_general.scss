@@ -1,0 +1,37 @@
+.primary-title{
+    font-family: 'Rokkitt', serif;
+    text-align: left;
+    width: 100%;
+
+}
+
+
+.masia,
+.sleep,
+.aboutUs,
+.contact {
+  height: 100vh;
+  padding: 30px;
+}
+
+#about, #contact{
+
+  background-image: url("images/laMasia/texturaFondoMasia.jpg");
+}
+.btn-book-fix{
+  position: fixed;
+  background: #f9d960;
+  transform: rotate(-90deg);
+  top: 0;
+  bottom: 0;
+  right: -96px;
+  margin: auto;
+  max-height: 56px;
+  padding: 5px 70px;
+  cursor: pointer;
+  font-size: 32px;
+  z-index: 99;
+  span{
+    cursor: pointer;
+  }
+}

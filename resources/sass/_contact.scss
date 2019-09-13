@@ -1,0 +1,67 @@
+.mapForm{
+    height: 50vh;
+}
+.formConctactAndLocation{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+.bottom {
+    height: 30vh;
+}
+.formContact, .location{
+    height: 100%;
+    width: 35%;
+}
+#contactForm1{
+    height: 60%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .socialContact{
+    height: 40%;
+    width: 100%;
+    outline: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+.icon{
+    height: 90%;
+    width: 60%;
+    display: flex;
+}
+.socialIcon{
+    width: 50%;
+    height: 100%;;
+    object-fit: cover;
+}
+.locationCanCruz{
+    height: 60%;
+    width: 100%;
+}
+.locationAddress{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.locationIcon{
+    margin-top:5%;
+    height: 40%;
+    width: 13%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.socialD{
+    margin-left: 0.5rem;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}

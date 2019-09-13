@@ -1,0 +1,61 @@
+.container-fluid {
+  height: 100%;
+}
+.masia {
+  background-image: url("images/laMasia/texturaFondoMasia.jpg");
+  .primary-title {
+    margin-top: 50px;
+  }
+
+  .masia-top {
+    display: flex;
+    height: 100%;
+    .imageMasia {
+      width: 42%;
+      position: absolute;
+      overflow: hidden;
+      object-fit: cover;
+      height: 60%;
+      padding: -2px 0;
+      left: 54px;
+      top: 96px;
+      border: 3px solid #ffd637;
+      border-radius: 6px;
+      z-index: 1;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .imageMasia2 {
+      width: 61%;
+      position: absolute;
+      overflow: hidden;
+      object-fit: cover;
+      height: 65%;
+      right: 32px;
+      top: 0;
+      border: 3px solid #ffd637;
+      border-radius: 6px;
+      z-index: 0;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .masia-bottom {
+    display: flex;
+  }
+  .descriptionMasia {
+    width: 47%;
+    position: absolute;
+    top: 438px;
+    right: 0;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+}

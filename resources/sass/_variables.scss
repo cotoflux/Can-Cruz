@@ -1,0 +1,20 @@
+$startSlogan-size: 100%;
+$startSlogan-size-font-mobile: 24px;
+$startSlogan-size-font-desktop: 59px;
+$break-small: 320px;
+$break-large: 768px;
+
+$font-family-title: "Rokkitt", serif;
+
+$colorLogo: white;
+
+@font-face {
+  font-family: "Rokkitt", serif;
+  src: url("/fonts/Rokkitt-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Signika', sans-serif;
+  src: url("/fonts/Signika-Regular.ttf"),
+        url("/fonts/Signika-SemiBold.ttf");
+}

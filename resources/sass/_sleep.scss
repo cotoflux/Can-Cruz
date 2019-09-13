@@ -1,0 +1,168 @@
+.sleep-room {
+  height: 85%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-slider {
+  height: 80%;
+  width: 90%;
+}
+h1 {
+  text-align: center;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.radioBtn {
+  display: none;
+}
+.container_img_slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  transition: all 1s;
+}
+.container_img_slider .principal_img {
+  z-index: 0;
+  object-fit: cover;
+  object-position: right;
+  height: 80%;
+  width: 58%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 12%;
+  margin: auto;
+}
+.room_container {
+  width: 40%;
+  height: 55%;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  right: 12%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: solid #f9d960;
+}
+#sleep {
+  background: url("images/habitaciones/background.png");
+}
+
+.roomTitle {
+  margin: 0;
+  padding: 30px;
+}
+.roomDescription {
+  padding: 0 30px;
+  margin: 0;
+}
+.price {
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  padding: 30px;
+  background: #f9d960;
+}
+.book_this_room {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding: 30px;
+  background: #f9d960;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.previous,
+.next {
+  height: 100%;
+  width: 12%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  img {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+  }
+}
+.previous {
+  left: 0;
+  img{
+      transform: rotate(180deg);
+  }
+}
+.next {
+  right: 0;
+}
+.slider_nav {
+  width: 76%;
+  height: 12%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.slider_control {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#img1:checked ~ #item-1 {
+  opacity: 1;
+  transition: all 1s;
+  z-index: 9;
+}
+#img2:checked ~ #item-2 {
+  opacity: 1;
+  transition: all 1s;
+  z-index: 9;
+}
+#img3:checked ~ #item-3 {
+  opacity: 1;
+  transition: all 1s;
+  z-index: 9;
+}
+#img4:checked ~ #item-4 {
+  opacity: 1;
+  transition: all 1s;
+  z-index: 9;
+}
+
+#img1:checked ~ .slider_control#dot1 {
+  background: rgba(255, 255, 0, 1);
+}
+#img2:checked ~ .slider_control#dot2 {
+  background: rgba(255, 255, 255, 1);
+}
+#img3:checked ~ .slider_control#dot3 {
+  background: rgba(255, 255, 255, 1);
+}
+#img4:checked ~ .slider_control#dot4 {
+  background: rgba(255, 255, 255, 1);
+}
